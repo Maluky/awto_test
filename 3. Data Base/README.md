@@ -1,7 +1,7 @@
 # La oportunidad consiste en crear un esquema de base de datos para una consecionaria de automóviles
 Para fortuna de la consecionaria, contamos con el mejor equipo y se definio el siguiente esquema.
 
-![alt text](Diagrama sin título.png "Diagrama base de datos")
+[alt text](Diagrama sin título.png "Diagrama base de datos")
 
 Este a su vez cumple con los requicitos minimos operantes
 
