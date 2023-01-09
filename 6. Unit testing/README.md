@@ -10,6 +10,7 @@ def sum_current_time(time_str: str) -> int:
     return sum(list_of_nums)
 ```
 Podemos notar que el error se produce al momento de retornar la suma de valores, ya que posterior al split, se conservan caracteres del tipo string, por lo que no se pueden sumar strings.
+
 Habilmente nuestro equipo captó con agilidad el error y propuso la siguiente función.
 ```python
 def sum_current_time(time_str: str) -> int:
