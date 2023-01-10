@@ -19,4 +19,4 @@ Todo empezó con una lluvia de ideas de que indicadores, eventualmente, podrian 
 * Active_day_roll_7 : Suma de activos en una ventana de 7 días 
 	* $\sum activos[t] + ... + activos[t+6]$
 * Critic_days : Para entender, en proporción, que días fueron posiblemente elevados en terminos de muertos
-	* $\("Deaths_day"/"Active_day_roll_7")*100000\$
+	* $\(Deaths day/Active day roll 7)*100000\$
