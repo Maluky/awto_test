@@ -11,6 +11,6 @@ Todo empezó con una lluvia de ideas de que indicadores, eventualmente, podrian 
 * Confirmed_day : Cantidad de confirmados por día | confirmados[t] - confirmados[t-1] |
 * Deaths_day : Muertos por día | muertos[t] - muertos[t-1] |
 * Active_day : Activos por día | activos[t] - activos[t-1] |
-* Deaths_day_roll_7 : Suma de muertos en una ventana de 7 días | $$ \sum_{t=0}^n muertos[t] + ... + muertos[t+6]/
-* Active_day_roll_7 : Suma de activos en una ventana de 7 días | $$ \sum_{t=0}^n activos[t] + ... + activos[t+6]/
+* Deaths_day_roll_7 : Suma de muertos en una ventana de 7 días | $$ \sum_{t=0}^n{muertos[t] + ... + muertos[t+6]}/
+* Active_day_roll_7 : Suma de activos en una ventana de 7 días | $$ \sum_{t=0}^n{activos[t] + ... + activos[t+6]}/
 * Critic_days : (Deaths_day/Active_day_roll_7)*100000 --> Para entender, en proporción, que días fueron posiblemente elevados en terminos de muertos
