@@ -29,3 +29,10 @@ Por lo que nuestro nuevo gráfico nos entrega mas información en la que podemos
 Las graficas de linea representan la evolución de los valores en el tiempo, y estas estan vinculadas con el eje izquierdo.
 Las graficas de barras reflejan los días criticos y su eje de referencia es el derecho.
 ###### Tener en consideración que los 0 de ambos graficos tienen un desface que no afecta el resultado
+
+### No obstante el equipo no estaba satisfecho y aprovecho las ventajas de sus integrantes y la data creada para dar con la ultima versión del grafico.
+
+![graph_with_prediction](graph_with_prediction.jpg "graph_with_prediction")
+[Reference to the graph, its better if you download it :wink: ] graph_with_prediction.html "download")
+
+El resultado es una predicción futura sobre los días criticos con una primera iteración de modelo de serie de tiempo.
