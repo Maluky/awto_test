@@ -9,14 +9,14 @@ La dirección de la API a utilizar "https://api.covid19api.com/country/singapore
 
 Todo empezó con una lluvia de ideas de que indicadores, eventualmente, podrian aportar valor al entendimiento del virus, logrando crear las siguientes variables
 * Confirmed_day : Cantidad de confirmados por día 
-	* confirmados[t] - confirmados[t-1]
+	* $ confirmados[t] - confirmados[t-1] $
 * Deaths_day : Muertos por día 
-	* muertos[t] - muertos[t-1]
+	* $ muertos[t] - muertos[t-1] $
 * Active_day : Activos por día 
-	* activos[t] - activos[t-1]
+	* $ activos[t] - activos[t-1] $
 * Deaths_day_roll_7 : Suma de muertos en una ventana de 7 días 
-	* $\sum  activos[t] + ... + activos[t+6]$
+	* $\sum activos[t] + ... + activos[t+6]$
 * Active_day_roll_7 : Suma de activos en una ventana de 7 días 
-	* $\sum_{t = 0}^{n}  activos[t] + ... + activos[t+6]$
+	* $\sum activos[t] + ... + activos[t+6]$
 * Critic_days : Para entender, en proporción, que días fueron posiblemente elevados en terminos de muertos
-	* (Deaths_day/Active_day_roll_7)*100000
+	* $ (Deaths_day/Active_day_roll_7)*100000 $
