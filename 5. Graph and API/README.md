@@ -22,8 +22,10 @@ Todo empezó con una lluvia de ideas de que indicadores, eventualmente, podrian 
 	* $\(Deaths day/Active day roll 7)*100000\$
 
 Por lo que nuestro nuevo gráfico nos entrega mas información en la que podemos tener una mejor interpretación.
-![all data](all data.jpg "All data")
-[Reference to the graph, its better if you download it :wink: ](all data.html "download")
+
+![all data](all_data.jpg "All data")
+[Reference to the graph, its better if you download it :wink: ](all_data.html "download")
+
 Las graficas de linea representan la evolución de los valores en el tiempo, y estas estan vinculadas con el eje izquierdo.
 Las graficas de barras reflejan los días criticos y su eje de referencia es el derecho.
 ###### Tener en consideración que los 0 de ambos graficos tienen un desface que no afecta el resultado
